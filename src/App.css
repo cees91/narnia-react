@@ -31,3 +31,14 @@
     transform: rotate(360deg);
   }
 }
+
+.uglyGrid {
+  text-align: center;
+  background-color: #eb4034;
+  border-radius: 20px;
+}
+.anotherUglyGrid {
+  text-align: center;
+  background-color: #34eb80;
+  border-radius: 20px;
+}
