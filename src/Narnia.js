@@ -67,7 +67,7 @@ export default function Narnia(props) {
           Welcome to the door of Narnia {props.person.firstName}
         </Typography>
         <div>
-          <img src="narnia.jpg" style={{ width: "100%" }} />
+          <img src="narnia.jpg" alt="narnia lion" style={{ width: "100%" }} />
         </div>
         <Typography variant="h6" className={classes.title}>
           If you want to try and enter, please click the enter button, else

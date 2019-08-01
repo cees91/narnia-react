@@ -85,7 +85,7 @@ class App extends React.Component {
   };
   removeUser = async person => {
     try {
-      await axios.delete(`/api/tourists/${person.id}`);
+      await axios.patch(`/api/tourists/${person.id}`);
       this.fetchData();
     } catch (error) {
       console.log(error.response.data);
@@ -103,7 +103,7 @@ class App extends React.Component {
           // alignItems="center"
         >
           <Grid item xs={12} style={{ textAlign: "center" }}>
-            <img src="download.jpg" />
+            <img src="download.jpg" alt="closet of narnia" />
             {this.state.error ? (
               <MySnackbarContentWrapper
                 variant="error"
